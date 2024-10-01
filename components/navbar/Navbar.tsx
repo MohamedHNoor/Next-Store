@@ -11,7 +11,7 @@ function Navbar() {
       <Container className='flex flex-col sm:flex-row sm:justify-between sm:items-center flex-wrap gap-4 py-8'>
         <Logo />
         <NavSearch />
-        <div className='flex gap-4 items-center'>
+        <div className='flex gap-5 items-center'>
           <CartButton />
           <DarkMode />
           <LinksDropdown />
